@@ -6,7 +6,8 @@ let user = {
 }
 
 console.log("Hanzala");
-console.log(user.email);
+
+// console.log(user.email);
 
 
 /// Types in TypeScript
@@ -16,3 +17,6 @@ console.log(user.email);
 // 7) Object 8) Array      9) Tuples
 // 10) Never 11) unknown
 // 12) Any => used when you're not sure what type to use here in TypeScript .... and more 
+
+
+export{}
