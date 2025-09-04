@@ -10,8 +10,8 @@ var userId = 12345;
 console.log(userId);
 // we can also assign number to a variables and typescript is smart enough to recognize that. this is called type inference
 var Id = 12345;
-Id = "Name";
-// Here when i tried to assign a string to the variable in which there was already number assigned
+// Id = "Name";
+// Here above when i tried to assign a string to the variable in which there was already number assigned
 // it threw an error
 // For Boolean we will write
 var isLoggedIn = true;
