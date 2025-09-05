@@ -11,7 +11,7 @@ addTwo(5);
 // So here i will define the type of the parameter in the funtion
 // now tge parameter num will always take value as number and if someone put a string or any other type then it will throw an error
 
-function addThree(num : number): number{
+function addThree(num : number): number{ /// here after the parameter i have written  ": number" againThis means that the return value will be a number
     // return "hello"; // will give error now
     return num + 2; // will not give error because of strict type checking
 
