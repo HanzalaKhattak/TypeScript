@@ -11,7 +11,8 @@ addTwo(5);
 // So here i will define the type of the parameter in the funtion
 // now tge parameter num will always take value as number and if someone put a string or any other type then it will throw an error
 function addThree(num) {
-    return num + 3;
+    // return "hello"; // will give error now
+    return num + 2; // will not give error because of strict type checking
 }
 addThree(5);
 // Same is for strings
@@ -19,3 +20,13 @@ function getlower(val) {
     return val.toLowerCase();
 }
 getlower("Aimal Nigga");
+// Working with arrow function
+// The following is how we will work with the Arrow Function
+var getHello = function (h) {
+    return "hello";
+};
+var heros = ['Ali', 'Umer', 'Abu BAkar', 'Usman'];
+// const heros =[1, 2, 3, 4]; 
+heros.map(function (hero) {
+    return "hero is ".concat(hero);
+});
